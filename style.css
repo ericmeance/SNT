@@ -1,0 +1,156 @@
+
+h1{
+	color : rgb(192,0,0);
+	font-size : 48px;
+	font-family: Comic Sans MS;
+	text-align: center;
+	
+}
+h2{
+	background-color: rgb(160,190,220); 
+	color : white;
+	font-size : 32px;
+	font-family: Arial;
+	padding: 12px;   
+
+	
+}
+
+h3{
+	color : rgb(33,75,121);
+	font-size : 24px;
+	font-family: Arial;
+}
+
+h4 {
+	color : rgb(256,0,256);
+	font-size : 20px;
+	font-family: Arial;
+}
+
+
+p,ul,ol{
+	color : black;
+	font-size : 22px;
+	font-family: Arial;
+ 
+}
+
+ol{
+  line-height: 2;
+}
+
+a{
+	font-size : 22px;
+	font-family: Arial;
+}
+
+table{
+	border-collapse: collapse;
+	
+	text-align: center;
+}
+
+
+
+nav{
+	background-color: rgb(33,75,121); 
+	float: top;
+    /* border: 3px solid white;    epaisseur et couleur du bord   */
+	 
+}
+
+nav ul {
+	display: flex;    /* permet d'utiliser toute la largeur de la page */
+	height: 80px; 
+}
+
+nav li {
+	list-style-type: none;
+	display : inline ;
+	margin : auto ;
+	
+}
+
+nav a
+{	color: white;
+	text-decoration: none;
+	font-size : 26px;
+	font-family: Arial;
+
+}
+
+section {
+	background-color: rgb(220,230,240); 
+	  
+}
+section ul {
+	display: flex;    /* permet d'utiliser toute la largeur de la page */
+	height: 60px;
+}
+
+section li {
+	list-style-type: none;
+	display : inline ;
+	margin : auto ;
+	
+}
+
+section a
+{	color: black;
+	text-decoration: none;
+	font-size : 22px;
+	font-family: Arial;
+
+}
+
+TEXTAREA 
+{	color: black;
+	text-decoration: none;
+	font-size : 22px;
+	font-family: Arial;
+	background : red;
+
+}
+.titre
+{	color : black;
+  font-size : 32px;
+  font-family: Arial;
+}
+
+.rouge {color : red; font-weight:bold;}
+.vert {color : green;}
+.italique {font-style: italic;}
+
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
